@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Autotheft</string>
+    <string name="stringtype_your_phone_no">type_your_phone_no</string>
+    <string name="stringphone_no">phone_no</string>
+    <string name="stringset">set</string>
+
+</resources>

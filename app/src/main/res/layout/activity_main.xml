@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="?android:attr/colorMultiSelectHighlight">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:id="@+id/editText2mainid"
+        android:hint="@string/stringphone_no" />
+
+    <Button
+        android:text="@string/stringset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        android:id="@+id/buttonmainid"
+        android:layout_below="@+id/editText2mainid"
+        android:layout_centerHorizontal="true"
+        android:onClick="onclick" />
+
+    <TextView
+        android:text="@string/stringtype_your_phone_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="101dp"
+        android:id="@+id/textView2mainid"
+        android:layout_below="@+id/buttonmainid"
+        android:layout_alignLeft="@+id/editText2mainid"
+        android:layout_alignStart="@+id/editText2mainid" />
+</RelativeLayout>
